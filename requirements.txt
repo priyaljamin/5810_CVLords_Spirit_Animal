@@ -1,0 +1,38 @@
+# Spirit Animal Generator - Requirements
+
+# Core ML/DL
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Diffusion models
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# ControlNet and pose detection
+controlnet-aux>=0.0.7
+
+# CLIP for image scoring
+git+https://github.com/openai/CLIP.git
+
+# OpenAI API
+openai>=1.0.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Web interface
+gradio>=4.0.0
+
+# Additional dependencies
+safetensors>=0.4.0
+xformers>=0.0.23  # Optional: for memory-efficient attention on CUDA
+
+#MMpose 
+mmpose>=1.0.0
+mmdet>=3.0.0
+mmcv>=2.0.0
+
+huggingface-hub~=0.36.0
+numpy~=2.2.5
+controlnet_aux~=0.0.7
